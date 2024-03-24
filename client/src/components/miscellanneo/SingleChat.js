@@ -6,7 +6,7 @@ import ScrollableChat from "./ScrollableChat";
 import axios from "axios";
 import ChatLoading from "./ChatLoading";
 import { io } from "socket.io-client";
-const ENDPOINT = "http://localhost:6969";
+const ENDPOINT = "https://cityofstar.onrender.com";
 var socket, selectedChatCompare;
 
 
